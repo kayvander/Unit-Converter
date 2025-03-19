@@ -1,20 +1,25 @@
 body {
     margin: 0;
-    width: 550px;
+    width: 100%;
     height: 729px;
+    background-color: #232323;
 }
 
 #top {
-    background-color: #606c38;
+    background-color: #232323;
     color: #fefae0;
     font-family: Inter-extra-bold, sans-serif;
     text-align: center;
     padding: 20px;
 }
 
+#title {
+    font-family: Boldonse;
+}
+
 #num-input {
     background: none;
-    border: 2px solid #283618;
+    border: 2px solid #5d3c18;
     border-radius: 5px;
     font-size: 50px;
     max-width: 120px;
@@ -41,8 +46,8 @@ body {
     color: transparent
 }
 
-#convert-btn {
-    display: block;
+button {
+    display: ;
     margin: 10px auto;
     width: 120px;
     height: 40px;
@@ -54,7 +59,7 @@ body {
 }
 
 #bottom {
-    background-color: #283618;
+    background-color: #5d3c18;
     text-align: center;
     padding: 20px;
     font-family: Inter-semi-bold;, sans-serif;
@@ -62,14 +67,15 @@ body {
 
 .measure-type {
     color: #fefae0;
-    font-family: Inter-regular, sans-serif;
-    font-size: 18px;
+    font-family: Boldonse;
+    font-size: 15px;
 }
 
 #container1, #container2, #container3 {
-    background-color: #606c38;
+    background-color: #232323;
+    max-width: 500px;
     padding: 10px;
-    margin: 10px;
+    margin: 10px auto;
     display: block;
     justify-content: center;
     align-items: center;
@@ -81,6 +87,11 @@ p {
     font-family: Inter-extra-light, sans-serif;
     font-size: 14px;
     color: white;
+}
+
+#ul-el {
+    color: white;
+    font-family: Inter-extra-light, sans-serif;
 }
 
 @font-face {
@@ -103,4 +114,8 @@ p {
 @font-face {
     font-family: Inter-extra-light;
     src: url(Inter/static/Inter_28pt-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Boldonse;
+    src: url(Boldonse/Boldonse-Regular.ttf);
 }
