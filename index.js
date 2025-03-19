@@ -39,6 +39,5 @@ saveBtn.addEventListener("click", function() {
         <h4>Saved Mass</h4>
         <p>${massEl.textContent}</p>`;
     ulEl.appendChild(savedItem);
-    if (savedItem.inn)
 })
 
